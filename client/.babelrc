@@ -1,0 +1,9 @@
+{
+  "presets": ["env", "stage-3"],
+  "plugins": ["transform-async-to-generator"],
+  "env": {
+      "development": {
+        "plugins": ["transform-react-jsx-source", "transform-object-rest-spread", { "useBuiltIns": true }]
+      }
+    }
+  }
